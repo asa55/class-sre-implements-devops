@@ -19,14 +19,14 @@ export default function App() {
       </h3>
       <Bar />
       <h3>The longer answer? Watch this series of ~5min vids:</h3>
-      <a href="https://www.youtube.com/watch?v=uTEL8Ff1Zvk&list=PLIivdWyY5sqJrKl7D2u-gmis8h9K66qoj">
-        <img src="../img/sre-devops-course.png" alt="sre devops course" />
+      <a href={"https://www.youtube.com/watch?v=uTEL8Ff1Zvk&list=PLIivdWyY5sqJrKl7D2u-gmis8h9K66qoj"}>
+        <img src={"../img/0-sre-devops-course.png"} alt={"sre devops course"}></img>
       </a>
       <br />
       <br />
       <Bar />
       <h3>Topic 1: SRE & DevOps</h3>
-
+        So...
       <Bar />
       <h3>Topic 2: SLIs, SLOs & SRAs</h3>
 
