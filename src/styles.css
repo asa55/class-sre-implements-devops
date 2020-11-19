@@ -1,6 +1,29 @@
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+.paper-class {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+ul > li {
+  list-style: "✅ ";
+  margin: 8px;
+}
+
+li {
+  text-align: left;
+  margin: 8px;
 }
 
 .rainbow-text-animated {
