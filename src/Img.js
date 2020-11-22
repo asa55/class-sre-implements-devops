@@ -4,7 +4,15 @@ export default function Img(props) {
   return (
     <>
       <a href={props.href}>
-        <img src={props.src} width={props.width} alt={props.alt}></img>
+        <img
+          className="responsive-css"
+          src={props.src}
+          alt={props.alt}
+          style={{
+            width: props.width,
+            maxWidth: "50vw"
+          }}
+        ></img>
       </a>
       <p>
         [<strong>Image {props.imageNumber}:</strong>
