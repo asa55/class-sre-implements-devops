@@ -5,21 +5,8 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    "& > *": {
-      margin: "0px",
-      padding: "0px",
-      height: "14px"
-    }
-  }
-}));
 
 export default function AlertDialog(props) {
-  const classes = useStyles();
-
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -36,11 +23,7 @@ export default function AlertDialog(props) {
 
   return (
     <span>
-      <Button
-        style={{ textTransform: "none" }}
-        className={classes.root}
-        onClick={handleClickOpen}
-      >
+      <Button style={{ textTransform: "none" }} onClick={handleClickOpen}>
         <strong style={{ color: "blue" }}>{props.content}</strong>
       </Button>
       <Dialog
